@@ -1,7 +1,7 @@
 {
-  "name": "shufflejs",
-  "version": "4.2.0",
-  "description": "Categorize, sort, and filter a responsive grid of items",
+  "name": "biko2_shufflejs",
+  "version": "4.1.1",
+  "description": "Fork of https://vestride.github.io/Shuffle/ Categorize, sort, and filter a responsive grid of items",
   "keywords": [
     "gallery",
     "shuffle",
@@ -21,19 +21,19 @@
     "css": "gulp css",
     "gulp": "gulp && npm run css",
     "serve": "gulp jekyll",
-    "test": "eslint src && gulp test",
+    "test": "gulp test",
     "watch": "gulp watch"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Vestride/Shuffle.git"
+    "url": "git://github.com/davidgallego/Shuffle.git"
   },
   "author": "Glen Cheney <cheney.glen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Vestride/Shuffle/issues"
+    "url": "https://github.com/davidgallego/Shuffle/issues"
   },
-  "homepage": "https://github.com/Vestride/Shuffle",
+  "homepage": "https://github.com/davidgallego/Shuffle",
   "files": [
     "dist",
     "src"
@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@odopod/eslint-config": "^1.0.0",
-    "autoprefixer": "^7.0.1",
+    "autoprefixer": "^6.3.4",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
@@ -57,7 +57,7 @@
     "eslint": "^3.19.0",
     "gulp": "gulpjs/gulp.git#4.0",
     "gulp-mocha-phantomjs": "^0.12.0",
-    "gulp-postcss": "^7.0.0",
+    "gulp-postcss": "^6.1.0",
     "gulp-sass": "^3.1.0",
     "gulp-shell": "^0.6.1",
     "gulp-util": "^3.0.7",
